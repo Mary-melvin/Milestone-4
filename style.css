@@ -1,0 +1,150 @@
+*
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: gray
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgb(2, 2, 90);
+    box-shadow: 0 4px 8px #344e64;
+}
+
+h2 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+fieldset {
+    border: 2px #8d7682;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color:#4e6c85;
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: whitesmoke;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: whitesmoke;
+
+}
+
+input,textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 1px solid #4e6c85;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color:#4e6c85;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px gray;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button :hover {
+    color: black;
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid#4e6c85;
+    border-radius: 8px;
+    background-color: gray;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#resume-display h2 {
+    color: gray;
+};
+    
+
+    Input [type = “text”]
+    Input [type = “email”] {
+      border: 2px #8d7682;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      background-color:#4e6c85;
+    }
+    Input [type = “text”]
+    Input [type = “email”] {
+    Border-color: blue;
+    Box-shadow: 0 0 3px rgba(32, 152, 319, 219, 0.3);
+    }
+
+    #resumeOutput {
+    Margin-top: 40px;
+    Background-color:gray;
+    Padding: 30px;
+    Border-radius: 12px;
+    Box-shadow: 0 15px 40px rgba (0, 0, 0, 0.1);
+    Max-width: 600;
+    Width: 100;
+    Transition: box-shadow 0.45 ease;
+    Border-left: 5px solid color
+    }
+
+    #resumeOutput h2 {
+    Box-shadow: 0 20px 50px rgba (0, 0, 0, 0.2);
+    }
+
+    #resumeOutput h2{
+    Color: grey;
+    Font-size: 2rem;
+    Margin: 25px;
+    Text-align: center;
+    }
+
+    #resumeOutput p {
+    Font-size: 1.15 rem;
+    Margin-bottom: 20px;
+    Color:gray;
+    Line-height: 1.8;
+    }
+
+    #resumeOutput strong {
+    Color: gray;
+    }
+
+    #editResume {
+    Background-color: blue;
+    Color: black;
+    Border:  none;
+    Padding: 12px 25px;
+    Font-size: 1.1rem;
+    Border-radius: 0 px;
+    Cursor: pointer;
+    Transition: background-color 0.3s, box-shadow 0.3s;
+    }
+
+    #editResume: hover {
+    Background-color: blue;
+    Box-shadow: 0 0 15px rgba (38, 166, 154, 0.5);
+    }
+    
